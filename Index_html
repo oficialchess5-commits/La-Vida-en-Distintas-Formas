@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos básicos - puedes borrarlos si no los quieres */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            background: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Sitio Web</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Bienvenido</h2>
+        <p>Esta es la base de tu página. Aquí puedes escribir tu contenido.</p>
+        
+        <button onclick="saludar()">Haz clic</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Creado por ti</p>
+    </footer>
+
+    <script>
+        function saludar() {
+            alert("¡Hola! Tu página funciona correctamente");
+        }
+    </script>
+
+</body>
+</html>
